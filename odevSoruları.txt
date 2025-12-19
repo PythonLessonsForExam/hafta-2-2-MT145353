@@ -1,0 +1,46 @@
+"""Python String, List, Dict, Set, Tuple – Ödev ve Çözümler
+STRING METOTLARI ÖDEVLERİ"""
+#1) Bir cümleyi upper(), lower(), title() ile dönüştür.
+
+
+#2) E-posta doğrulama yap, geçerli/geçersiz. Örnek: mustafa@bilgisayar.com adresini geçerli olup olmadığını kontrol et.
+#geçerliyse "Geçerli", değilse "Geçersiz" yazdır.
+
+
+#3) Kelime analizörü. kullancıdan metin al,
+# kelime sayısı, en uzun kelime, en çok geçen harf, benzersiz kelimeleri yazdır.
+
+
+#LIST ÖDEVLERİ
+#4) kullanıcıdan 5 sayı al → max, min, ortalama.
+
+
+#5) Sayı oyunları. 
+# tekrar eden sayıları kaldır(set() metodu tekrar eden değerleri kaldırır), 
+# 7 sayısının kaç kere geçtiğini bul,
+# her sayının karesini al.
+
+
+#TUPLE ÖDEVLERİ
+#6) Kullanıcıdan tuple oluştur."Kullanıcı {yaş} yaşındadır." yazdır.
+
+
+#7) Gün kontrol. Kullanıcıdan gün ismi al,
+# hafta içi mi hafta sonu mu yazdır.
+
+
+
+#8) Karne sistemi. ogrenciler adından bir liste oluştur ve 
+# her öğrenci için 3 tane not bilgisi gir(70,80,90 gibi). 
+# Her öğrencinin ortalamasını hesapla ve 80 üzeri ise "Başarılı", altı ise "Geliştirilmeli" olarak yazdır.
+
+
+
+
+#SET ÖDEVLERİ
+#9) A ve B set işlemleri. A ve B setlerini tanımla ve kesişim, birleşim, fark ve simetrik fark işlemlerini yap.
+
+
+
+#DICT ÖDEVLERİ
+#10) Sözlük işlemleri. ad-yaş-şehir sözlüğünü oluştur ve meslek ekle, yaşını 1 artır. ve anahtar-değer çiftlerini yazdır.
