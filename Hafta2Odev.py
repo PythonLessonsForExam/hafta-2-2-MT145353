@@ -1,1 +1,7 @@
-#cevapları buraya yaz
+0#cevapları buraya yaz
+
+# deneme
+
+x,y  = 10 , 20 
+
+print(x+y)  
