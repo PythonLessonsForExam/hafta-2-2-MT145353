@@ -1,11 +1,20 @@
 """Python String, List, Dict, Set, Tuple – Ödev ve Çözümler
 STRING METOTLARI ÖDEVLERİ"""
 #1) Bir cümleyi upper(), lower(), title() ile dönüştür.
-
+a1=str(input("Metin Giriniz"))
+print(a1.upper())
+print(a1.lower())
+print(a1.title())
+#soru 1
 
 #2) E-posta doğrulama yap, geçerli/geçersiz. Örnek: mustafa@bilgisayar.com adresini geçerli olup olmadığını kontrol et.
 #geçerliyse "Geçerli", değilse "Geçersiz" yazdır.
-
+2=str(input("Emailiniz Giriniz."))
+if a2=="mustafa@bilgisayar.com":
+    print("Sisteme Hoş Geldiniz.")
+else:
+    print("Lütfen Tekrar Deneyin.")
+#soru 2
 
 #3) Kelime analizörü. kullancıdan metin al,
 # kelime sayısı, en uzun kelime, en çok geçen harf, benzersiz kelimeleri yazdır.
@@ -13,7 +22,18 @@ STRING METOTLARI ÖDEVLERİ"""
 
 #LIST ÖDEVLERİ
 #4) kullanıcıdan 5 sayı al → max, min, ortalama.
-
+a11=int(input("bir sayı giriniz"))
+a12=int(input("bir sayı giriniz"))
+a13=int(input("bir sayı giriniz"))
+a14=int(input("bir sayı giriniz"))
+a15=int(input("bir sayı giriniz"))
+list=[a11,a12,a13,a14,a15]
+a16=min(list)
+a17=max(list)
+a18= (a11+a12+a13+a14+a15)// 5
+print("minimum değer", a16)
+print("max değer", a17)
+print("avarage değer", a18)
 
 #5) Sayı oyunları. 
 # tekrar eden sayıları kaldır(set() metodu tekrar eden değerleri kaldırır), 
@@ -23,17 +43,34 @@ STRING METOTLARI ÖDEVLERİ"""
 
 #TUPLE ÖDEVLERİ
 #6) Kullanıcıdan tuple oluştur."Kullanıcı {yaş} yaşındadır." yazdır.
+ad=str(input("adınızı giriniz"))
+yaş=int(input("yaşınızı giriniz"))
+tuple=(ad,yaş)
+print(tuple[0],tuple[1],"yaşındadır")
 
-
-#7) Gün kontrol. Kullanıcıdan gün ismi al,
+(#7) Gün kontrol. Kullanıcıdan gün ismi al,
 # hafta içi mi hafta sonu mu yazdır.
-
+girdi=str(input("haftanın hangi günü bugün?"))
+if girdi=="pazartesi" or "salı" or "çarşamba" or "perşembe" or "cuma":
+    print("bugün haftaiçidir.")
+elif girdi=="cumartesi" or "pazar":
+    print("bugün haftasonudur.")
+else:
+    print("geçerli bir gün ismi girmedinişz lütfen tekrar deneyin.")
 
 
 #8) Karne sistemi. ogrenciler adından bir liste oluştur ve 
 # her öğrenci için 3 tane not bilgisi gir(70,80,90 gibi). 
 # Her öğrencinin ortalamasını hesapla ve 80 üzeri ise "Başarılı", altı ise "Geliştirilmeli" olarak yazdır.
-
+not1=float(input("Sınav notunuzu giriniz."))
+not2=float(input("2.sınav notunuzu giriniz."))
+not3=float(input("Sözlü notunuzu giriniz."))
+ortalama= (not1+not2+not3)//3
+if ortalama >= 80:
+    print("Tebrikler dersi geçtiniz")
+else:
+    print("Maalesef tekrar deneyin.")
+    
 
 
 
@@ -44,3 +81,11 @@ STRING METOTLARI ÖDEVLERİ"""
 
 #DICT ÖDEVLERİ
 #10) Sözlük işlemleri. ad-yaş-şehir sözlüğünü oluştur ve meslek ekle, yaşını 1 artır. ve anahtar-değer çiftlerini yazdır.
+kimlik={
+    "ad": "ali",
+    "Yaş":"15",
+    "Memleket":"adana"
+}
+kimlik["Meslek"]= "boyacı"
+kimlik["Yaş"]=16
+print(kimlik)
